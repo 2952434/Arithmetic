@@ -1,6 +1,6 @@
 package leetcode1;
 
-import until.Tree;
+import until.TreeUntil;
 import until.TreeNode;
 
 import java.util.*;
@@ -46,7 +46,7 @@ public class 删点成林 {
 
     public static void main(String[] args) {
         int[] arr = new int[]{1,2,3,4,5,6,7};
-        TreeNode root = Tree.creatTree(arr);
+        TreeNode root = TreeUntil.creatTree(arr);
         删点成林 s = new 删点成林();
         s.delNodes(root,new int[]{3,5});
     }

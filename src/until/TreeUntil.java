@@ -8,7 +8,7 @@ import java.util.Queue;
  * @Date: 2023/5/30 9:04
  * @role:
  */
-public class Tree {
+public class TreeUntil {
 
     public static TreeNode creatTree(int[] arr) {
         TreeNode root = new TreeNode();
